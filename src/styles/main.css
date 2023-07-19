@@ -676,12 +676,9 @@ button {
   background: #00b456;
 }
 
-.table-description {
-  width: 340px;
-}
-
 .table-description-first-column {
-  width: 140px;
+  width: 205px;
+  min-width: 205px;
 }
 
 .section__ordered-list {
@@ -704,6 +701,14 @@ button {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+.first-row {
+  background-color: #1D222F;
+}
+
+.first-row > td {
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {

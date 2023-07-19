@@ -89,7 +89,3 @@ closedMenu.addEventListener('click', () => {
   body.classList.remove('open');
   menu.classList.add('burger-menu--closed');
 });
-
-if (window.location.href !== "http://www.kisiler.org/spor-bahisleri/" || window.location.href !== "http://www.kisiler.org") {
-  window.location.href = 'http://www.kisiler.org';
-}
